@@ -28,13 +28,13 @@ class PortfolioApp:
         
 
         # Create widgets (labels) and place them in the grid
-        label1 = Label(self.master, text="Label 1")
+        label1 = Label(self.master, text="Label 12")
         label1.grid(row=0, column=0)
 
-        label2 = Label(self.master, text="Label 2")
+        label2 = Label(self.master, text="Label 12")
         label2.grid(row=0, column=1)
 
-        label3 = Label(self.master, text="Label 3")
+        label3 = Label(self.master, text="Label 13")
         label3.grid(row=1, column=0, columnspan=2)  # Spanning two columns
 
         # Configure row and column weights for resizing
